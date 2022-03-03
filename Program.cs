@@ -58,3 +58,13 @@ if (B < 100)
 Console.WriteLine(Math.Round(Convert.ToDouble(A + B)));
 
 Console.WriteLine(Math.Abs(Math.Round(Convert.ToDouble(A - B), 2)));
+
+var time = 8;
+var day = 03;
+var month = 11;
+var year = 2022;
+
+if(string.IsNullOrEmpty(time))
+{
+    Console.WriteLine("Hello!");
+}
